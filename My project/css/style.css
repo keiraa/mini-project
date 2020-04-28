@@ -21,16 +21,16 @@ body{
     width: 100vw;
     height: 100vh;
     display: grid;
-    background-image: linear-gradient(to right,#09e5db , #d314dc, #260aee );
     grid-template-columns: repeat(2, 1fr);
     grid-gap :7rem;
     padding: 0 2rem;
 }
 .container1
 {
-	width: 100px;
-	height: 100px;
-	margin: auto;	
+	width: 30%;
+	height: 30%;
+	margin-left: 35%;
+	margin-right: 35%;	
 }
 
 .img{
@@ -238,7 +238,44 @@ a:hover{
 
 
 
+.wrap
+{
+	margin: 0% 10% 0% 10%;
+	width: 80%;
+	height: 80%;
+	align-items: center;
+}
 
 
 
+figcaption
+{
+	background-color: #fff;
+	width: inherit;
+	height: inherit;
+	text-align: center;
+	font-family: 'Baloo Bhaina 2', cursive;
+	font-size: 200%;
+}
 
+
+
+.imgcenter
+{
+	width: 60%;
+	margin: 5%;
+	height:60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer
+{
+	width: 100%;
+	font-size: 75%;
+	align-items: center;
+	height: 20%; 
+	color: rgb(151, 151, 151);
+	text-align: center;
+}
